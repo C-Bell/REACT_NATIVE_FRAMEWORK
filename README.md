@@ -1,14 +1,15 @@
-## Example App
+## React-Native Interactive Prototype
 
-Normally, after a code change to react-native-router-flux src files,
-you must remove the node_modules/react-native-router-flux directory
-and npm install.  The react-native packager wont follow symlinks.
+This application will be a react-native based project so I can
+get to grips with the capabilities of React-Native.
 
-To assist development, this command watches and rsyncs changes:
+To run the application, clone the repository and run: 
 
 ```
-npm run sync-rnrf
+npm install
+webpack -w
+react-native run-android
 ```
 
-Leave a terminal open running this command when running the Example
+Leave a terminal open running this command when running the
 app and making react-native-router-flux src changes.
